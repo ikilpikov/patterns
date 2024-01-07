@@ -13,5 +13,6 @@ public class ClientValidator extends AbstractHandler {
         }
 
         System.out.println("Данные о клиенте корректны.");
+        super.handle(request);
     }
 }

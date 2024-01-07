@@ -19,5 +19,6 @@ public class ClientStatsHandler extends AbstractHandler {
         }
 
         System.out.println("Комплаенс проверка пройдена.");
+        super.handle(request);
     }
 }

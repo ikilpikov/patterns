@@ -16,5 +16,6 @@ public class CreditValidator extends AbstractHandler{
         }
 
         System.out.println("Данные о кредите корректны.");
+        super.handle(request);
     }
 }
