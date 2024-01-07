@@ -25,4 +25,12 @@ public class CreditCard implements Card {
     public void decreaseBalance (int sum) {
         balance -= sum;
     }
+
+    @Override
+    public String toString() {
+        return "CreditCard{" +
+                "balance=" + balance +
+                ", client=" + client +
+                '}';
+    }
 }

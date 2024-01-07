@@ -27,4 +27,12 @@ public class DebitCard implements Card{
             balance -= sum;
         }
     }
+
+    @Override
+    public String toString() {
+        return "DebitCard{" +
+                "balance=" + balance +
+                ", client=" + client +
+                '}';
+    }
 }

@@ -3,5 +3,5 @@ package card;
 import client.Client;
 
 public interface CardFactorty {
-    public Card createCard(Client client);
+    Card createCard(Client client);
 }
